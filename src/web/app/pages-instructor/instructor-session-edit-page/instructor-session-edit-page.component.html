@@ -15,7 +15,6 @@
       {{isAllCollapsed ? "Expand" : "Collapse" }} All
     </button>
   </div>
-
   <div *tmIsLoading="isLoadingFeedbackQuestions">
     <div
       *ngFor="let questionEditFormModel of questionEditFormModels; let i = index; trackBy: trackQuestionEditFormByFn">
